@@ -38,6 +38,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client_socket:
     thread.start() # 스레드 시작
 
     print('[Enter 입력시 시작]')
+
+    # 새로운 스레드 생성
+    # - GUI 환경 제공
     
     while True:
         # 서버로 메시지 전송
