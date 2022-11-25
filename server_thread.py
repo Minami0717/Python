@@ -134,7 +134,7 @@ if __name__ == '__main__':
         # 접속 요청 수락 후 BaseRequestHandler의 handle 메소드 호출
         server.serve_forever()
         
-    except KeyboardInterrupt:
+    except Exception: # 모든 예외
         print('[채팅 서버 종료]')
         server.shutdown() # serve_forever() 중지
         server.server_close() # 소켓 닫기
