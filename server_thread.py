@@ -8,6 +8,10 @@ port = 50001
 # 스레드에서 데이터(자원) 경쟁을 막음
 lock = threading.Lock()
 
+# 스레드 추가
+# - 서버 GUI 제공
+# - 트래픽 관리
+
 # 클라이언트 관리 및 채팅 메시지 전송 클래스
 class UserManager:
     # 생성자
