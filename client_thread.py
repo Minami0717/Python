@@ -39,8 +39,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client_socket:
 
     print('[Enter 입력시 시작]')
 
-    # 새로운 스레드 생성
+    # 새로운 스레드
     # - GUI 환경 제공
+    # - 이모티콘 기능 추가
     
     while True:
         # 서버로 메시지 전송
